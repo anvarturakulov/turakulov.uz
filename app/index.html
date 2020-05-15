@@ -5,84 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>turakulov.uz</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">    
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/media.min.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="content">    
-            <header class="header">
-                <div class="container">
-                    <div class="header__inner">
-                        <a class="header__logo" href="#">tura<span>kulov.uz</span></a>
-                        
-                        <div class="header__menu-btn">
-                            <div class="heder__menu-row"></div>
-                            <div class="heder__menu-row"></div>
-                            <div class="heder__menu-row"></div>
-                        </div>
-                        
-                        <div class="header__menu">
-                            <ul>
-                                <li><a href="portfolio.html">Портфолио</a></li>
-                                <li><a href="inf.html">Информация</a></li>
-                                <li><a href="#">Блог</a></li>
-                                <li><a href="contact.html">Контакты</a></li>
-                            </ul>
-                        </div>
-                        
-                        <!-- <a class="header__search" href="#" style="background-image: url(images/links/search.png);"></a> -->
-                    </div>    
+    
+    <section class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__img" style="background-image: url(images/main.jpg);"></div>  
+                <div class="main__content">
+                    <div class="main__content-prof">Веб программист</div>
+                    <div class="main__content-name">Анвар Туракулов</div>
+                    <div class="main__content-text">
+                        <div class="text__one">Приветствую Вас на моем странице</div>   
+                        <div class="text__two">Занимаюсь я созданием лендингов, корпоративных сайтов, интернет магазинов 
+                            которые быстро загружаются и функциональны в использование.</div>
+                        <div class="text__three">Можете заказать сайт с нуля или можете связаться со мной для сотрудничества</div>
+                    </div>
+                    <a class="main__content-rezume" href="images/cv.pdf" target="_blank">РЕЗЮМЕ</a>
                 </div>
-            </header>
-
-            <section class="bgbox">
-
-            </section>
-
-                <section class="main">
-                    <div class="container">
-                        <div class="main__inner">
-                            <div class="main__img" style="background-image: url(images/main.jpg);"></div>  
-                            <div class="main__content">
-                                <div class="main__content-prof">Веб программист</div>
-                                <div class="main__content-name">Анвар Туракулов</div>
-                                <div class="main__content-text">
-                                    <div class="text__one">Приветствую Вас на моем странице</div>   
-                                    <div class="text__two">Занимаюсь я созданием лендингов, корпоративных сайтов, интернет магазинов 
-                                        которые быстро загружаются и функциональны в использование.</div>
-                                    <div class="text__three">Можете заказать сайт с нуля или можете связаться со мной для сотрудничества</div>
-                                    
-                                </div>
-                                <a class="main__content-rezume" href="images/cv.pdf" download>РЕЗЮМЕ</a>
-                            </div>
-                            <div class="main__leftbox">
-                                <div class="main__leftbox-border"></div>
-                                <div class="main__leftbox-links">
-                                    <a href="tel:+998905041055" style="background-image: url(images/links/phone.png);"></a>
-                                    <a href="mailto:anvarsam@mail.ru" style="background-image: url(images/links/mail.png);"></a>
-                                    <a href="https://github.com/anvarturakulov" style="background-image: url(images/links/github.png);"></a>
-                                    <a href="https://telegram.me/anvarbobo" style="background-image: url(images/links/telegram.png);"></a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="main__leftbox">
+                    <div class="main__leftbox-border"></div>
+                    <div class="main__leftbox-links">
+                        <a href="tel:+998905041055" style="background-image: url(images/links/phone.png);"></a>
+                        <a href="mailto:anvarsam@mail.ru" style="background-image: url(images/links/mail.png);"></a>
+                        <a href="https://github.com/anvarturakulov" target="_blank" style="background-image: url(images/links/github.png);"></a>
+                        <a href="https://telegram.me/anvarbobo" target="_blank" style="background-image: url(images/links/telegram.png);"></a>
                     </div>
-                </section>
-        </div>    
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__inner">
-                    <div class="footer__img">
-                        <a class="footer__img-link one" href="#" style="background-image: url(images/otziv/ellips1.png);"></a>
-                        <a class="footer__img-link two" href="#" style="background-image: url(images/otziv/ellips2.png);"></a>
-                        <a class="footer__img-link three" href="#" style="background-image: url(images/otziv/ellips3.png);"></a>
-                    </div>
-                    <a class="footer__text" href="#">Отзывы клиентов</a>
-                </div>    
+                </div>
             </div>
-        </footer>
+        </div>
+    </section>
+
+    <section class="border__menu-container">
+        <div class="border__menu">
+            <div class="title__page">Меню</div>    
+            <div class="main__page">Главная страница</div>
+            <div class="poloska"></div>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="inf.html">Обо Мне</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>        
+        </div>
+    </section>
+
+    <div class="border__btn-open">
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
     </div>
+    <div class="border__btn-close">
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>

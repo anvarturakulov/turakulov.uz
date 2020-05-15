@@ -9,7 +9,7 @@ let gulp = require('gulp'),
 
 gulp.task('sass',function(){
     return gulp.src('app/scss/*.scss')
-            .pipe(sass({outputStyle: 'compressed'}))
+            .pipe(sass({outputStyle: 'expanded'}))
             .pipe(rename({suffix : '.min'}))
             .pipe(autoprefixer({
                 overrideBrowserslist: ['last 8 versions']
@@ -22,7 +22,8 @@ gulp.task('style',function(){
     return gulp.src([
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
-        'node_modules/magnific-popup/dist/magnific-popup.css'
+        'node_modules/magnific-popup/dist/magnific-popup.css',
+        'node_modules/animate.css/animate.css'
     ])
             .pipe(concat('libs.min.css'))
             .pipe(cssmin())

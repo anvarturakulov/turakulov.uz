@@ -4,100 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>turakulov.uz</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">    
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/media.min.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="content">    
-            <header class="header">
-                <div class="container">
-                    <div class="header__inner">
-                        <a class="header__logo" href="index.html">tura<span>kulov.uz</span></a>
-                        
-                        <div class="header__menu-btn">
-                            <div class="heder__menu-row"></div>
-                            <div class="heder__menu-row"></div>
-                            <div class="heder__menu-row"></div>
+
+    <div class="contact">
+        <div class="container">
+            
+            <div class="contact__inner">
+                <div class="contact__messagebox">
+                    <div class="contact__title">Написать мне</div>
+                    <form>
+                        <div>
+                            <input type="text" placeholder="Имя..." required >
+                            <div class="contact__text">Ваше имя</div>
                         </div>
-                        
-                        <div class="header__menu">
-                            <ul>
-                                <li><a href="index.html">Главная</a></li>
-                                <li><a href="portfolio.html">Портфолио</a></li>
-                                <li><a href="inf.html">Информация</a></li>
-                                <li><a href="#">Блог</a></li>
-                                <li><a href="contact.html">Контакты</a></li>
-                            </ul>
+                        <div>
+                            <input type="text" placeholder="email..." required>
+                            <div class="contact__text">Ваша почта</div>
                         </div>
-                        
-                        <!-- <a class="header__search" href="#" style="background-image: url(images/links/search.png);"></a> -->
+                        <textarea rows="10" cols="45" name="text" placeholder="Ваше сообщение"></textarea>
+                        <button type="submit" class="contact-btn">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact__info">
+                    <div class="contact__title">Контакты</div>
+                    <div class="adress">
+                        <div class="adress__ico" style="background-image: url(images/links/geo.png);"></div>
+                        <div class="adress__text">Узбекистан г. Самарканд</div>
                     </div>    
-                </div>
-            </header>
+                    <div class="adress">
+                        <div class="adress__ico" style="background-image: url(images/links/mail.png);"></div>
+                        <div class="adress__text">anvarsam@mail.ru</div>
+                    </div>    
+                    <div class="adress">
+                        <div class="adress__ico" style="background-image: url(images/links/phone.png);"></div>
+                        <div class="adress__ico" style="background-image: url(images/links/telegram.png);"></div>
+                        <div class="adress__text">+99890-504-10-55</div>
+                        
+                    </div>  
 
-            <div class="contact">
-                <div class="container">
-                    <div class="contact__inner">
-                        <div class="contact__messagebox">
-                            <div class="contact__title">Написать мне</div>
-                            <form>
-                                <div>
-                                    <input type="text" placeholder="Имя..." required >
-                                    <div class="contact__text">Ваше имя</div>
-                                </div>
-                                <div>
-                                    <input type="text" placeholder="email..." required>
-                                    <div class="contact__text">Ваша почта</div>
-                                </div>
-                                <textarea rows="10" cols="45" name="text" placeholder="Ваше сообщение"></textarea>
-                                <button type="submit" class="contact-btn">
-                                    Отправить
-                                </button>
-                            </form>
-                        </div>
+                    <div class="adress">
+                        <div class="adress__ico" style="background-image: url(images/links/skype.png);"></div>
+                        <div class="adress__ico" style="background-image: url(images/links/viber.png);"></div>
+                        <div class="adress__text">+99890-504-10-55</div>
+                        
+                    </div>  
+                    
 
-                        <div class="contact__info">
-                            <div class="contact__title">Контакты</div>
-                            <div class="adress">
-                                <div class="adress__ico" style="background-image: url(images/links/geo.png);"></div>
-                                <div class="adress__text">Узбекистан г. Самарканд</div>
-                            </div>    
-                            <div class="adress">
-                                <div class="adress__ico" style="background-image: url(images/links/mail.png);"></div>
-                                <div class="adress__text">anvarsam@mail.ru</div>
-                            </div>    
-                            <div class="adress">
-                                <div class="adress__ico" style="background-image: url(images/links/phone.png);"></div>
-                                <div class="adress__ico" style="background-image: url(images/links/telegram.png);"></div>
-                                <div class="adress__text">+99890-504-10-55</div>
-                                
-                            </div>  
-
-                            <div class="adress">
-                                <div class="adress__ico" style="background-image: url(images/links/skype.png);"></div>
-                                <div class="adress__ico" style="background-image: url(images/links/viber.png);"></div>
-                                <div class="adress__text">+99890-504-10-55</div>
-                                
-                            </div>  
-                            
-
-                        </div>
-                    </div>
                 </div>
             </div>
-
-        </div>    
-        <footer class="footer mini">
-            <div class="container">
-                <div class="footer__logo">   
-                    <a href="index.html">tura<span>kulov.uz</span></a>
-                </div>    
-            </div>
-        </footer>
+        </div>
     </div>
+
+    <section class="border__menu-container">
+        <div class="border__menu">
+            <div class="title__page">Контакты</div>    
+            <div class="main__page">Контакты</div>    
+            <div class="poloska"></div>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="inf.html">Обо Мне</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="border__btn-open">
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
+    </div>
+    <div class="border__btn-close">
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
+        <div class="border__btn-row"></div>
+    </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
